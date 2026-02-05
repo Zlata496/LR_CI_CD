@@ -17,4 +17,3 @@ class TestCase(unittest.TestCase):
                 self.car.refuel_car(20)
                 assert self.car.get_current_fuel_level() == 20
                 self.assertRaises(Exception, lambda: self.car.refuel_car(80))
-1234567890-
